@@ -1,0 +1,104 @@
+page-loginauth  {
+	.icon-face, page-loginauth .icon-google {
+	  display: inline-block;
+	  height: 100%;
+	  margin: 0;
+	  padding: 0 10px;
+	  background-size: 86% 50%;
+	  background-position: 20% 47%;
+	  background-repeat: no-repeat;
+	}
+
+	.icon-face {
+	  background-image: url(../assets/icon/face_white_logo.png);
+	}
+
+	.icon-google {
+	  background-image: url(../assets/icon/google_white_logo.png);
+	}
+
+	.bar-button-default-md, page-loginauth .bar-button-clear-md-default, page-loginauth .bar-button-md-default,
+	.bar-button-default-ios, page-loginauth .bar-button-default.bar-button-ios-default, page-loginauth .bar-button-clear-ios-default {
+	  background-image: url("../assets/icon/more_blue.png") !important;
+	  height: 30px !important;
+	  width: 30px !important;
+	  background-size: 100% 100%;
+	  background-repeat: no-repeat;
+	  padding-right: 20px;
+	}
+
+	.bar-button-default-md .button-inner, page-loginauth .bar-button-clear-md-default .button-inner, page-loginauth .bar-button-md-default .button-inner,
+	.bar-button-default-ios .button-inner, page-loginauth .bar-button-default.bar-button-ios-default .button-inner, page-loginauth .bar-button-clear-ios-default .button-inner {
+	  color: transparent;
+	}
+
+	ion-content {
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display: flex;
+	  text-align: center;
+	  color: #488aff !important;
+	}
+	
+	ion-content .scroll-bar {
+	  overflow-x: false;
+	}
+	
+	ion-content p {
+	  padding: 0;
+	  margin: 0;
+	}
+	
+	ion-content .logo {
+	  width: 90%;
+	}
+	
+	ion-content .content-img {
+	  width: 35%;
+	}
+	
+	.logo p {
+	  padding-bottom: 20px;
+	}
+	
+	.login {
+	  background-color: #488aff;
+	  margin: 0 -16px;
+	}
+	
+	.login button {
+	  font-size: 14px;
+	  border: 2px cornflowerblue solid;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	  text-transform: none;
+	  padding: 0;
+	}
+	
+	.login button .button-inner {
+	  padding-right: 5px;
+	}
+	
+	.content h1 {
+	  font-weight: 600;
+	  padding: 25px 0 0 0px;
+	  margin: 0;
+	}
+	
+	.content img {
+	  padding: 0 0 5px 0;
+	}
+	.login button {
+	  font-size: 14px;
+	  border: 2px cornflowerblue solid;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	  text-transform: none;
+	  padding: 0;
+	}
+	
+	.login button .button-inner {
+	  padding-right: 5px;
+	}
+}

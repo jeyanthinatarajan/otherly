@@ -1,0 +1,90 @@
+page-signup .icon-face, page-signup .icon-google {
+  display: inline-block;
+  height: 100%;
+  margin: 0;
+  padding: 0 10px;
+  background-size: 86% 50%;
+  background-position: 20% 47%;
+  background-repeat: no-repeat;
+}
+
+page-signup .icon-face {
+  background-image: url(../assets/icon/face_white_logo.png);
+}
+
+page-signup .icon-google {
+  background-image: url(../assets/icon/google_white_logo.png);
+}
+
+page-signup .bar-button-default-md, page-signup .bar-button-clear-md-default, page-signup .bar-button-md-default,
+page-signup .bar-button-default-ios, page-signup .bar-button-default.bar-button-ios-default, page-signup .bar-button-clear-ios-default {
+  background-image: url("../assets/icon/more_blue.png") !important;
+  height: 30px !important;
+  width: 30px !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+}
+
+page-signup .bar-button-default-md .button-inner, page-signup .bar-button-clear-md-default .button-inner, page-signup .bar-button-md-default .button-inner,
+page-signup .bar-button-default-ios .button-inner, page-signup .bar-button-default.bar-button-ios-default .button-inner, page-signup .bar-button-clear-ios-default .button-inner {
+  color: transparent;
+}
+
+page-signup ion-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  color: #488aff !important;
+}
+
+page-signup ion-content .scroll-bar {
+  overflow-x: false;
+}
+
+page-signup ion-content p {
+  padding: 0;
+  margin: 0;
+}
+
+page-signup ion-content .logo {
+  width: 90%;
+}
+
+page-signup ion-content .content-img {
+  width: 35%;
+}
+
+page-signup .logo p {
+  padding-bottom: 20px;
+}
+
+page-signup .signup {
+  background-color: #488aff;
+  margin: 0 -16px;
+}
+
+page-signup .signup button {
+  font-size: 14px;
+  border: 2px cornflowerblue solid;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-transform: none;
+  padding: 0;
+}
+
+page-signup .signup button .button-inner {
+  padding-right: 5px;
+}
+
+page-signup .content h1 {
+  font-weight: 600;
+  padding: 25px 0 0 0px;
+  margin: 0;
+}
+
+page-signup .content img {
+  padding: 0 0 5px 0;
+}
