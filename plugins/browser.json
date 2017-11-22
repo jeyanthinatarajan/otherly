@@ -1,0 +1,21 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "ly.other.android"
+        },
+        "cordova-plugin-ionic-webview": {
+            "PACKAGE_NAME": "ly.other.android"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "ly.other.android"
+        }
+    },
+    "dependent_plugins": {}
+}
