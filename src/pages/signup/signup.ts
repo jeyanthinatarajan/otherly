@@ -27,7 +27,7 @@ export class SignupPage {
 	        email: ['', Validators.compose([Validators.maxLength(30), Validators.pattern('[A-Za-z0-9._%+-]{2,}@[a-zA-Z-_.]{2,}[.]{1}[a-zA-Z]{2,} *'), Validators.required])],
 	        password: ['', Validators.compose([Validators.minLength(6), Validators.maxLength(10), Validators.pattern('[a-zA-Z0-9]*'), Validators.required])],
 	        cpassword:['', Validators.compose([Validators.required])]
-	    }, {'Validators': Validators.isMatching});
+	    });
 	}
   	save(){ 
 	    this.submitAttempt = true;	 
